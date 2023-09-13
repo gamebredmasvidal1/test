@@ -1,0 +1,29 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .commers_card, .custom__card, .footer__card  {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .footer__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 720px;
+        .nav__burger {
+            display: flex;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+

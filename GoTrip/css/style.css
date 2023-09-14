@@ -1,0 +1,306 @@
+* {
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav {
+    background: #3E8989;
+}
+
+.nav__content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__logo {
+    padding: 37px 0px;
+}
+
+.menu__link {
+    padding:37px 15px 44px 15px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+}
+
+.menu__link::after {
+    display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 3px; 
+	background-color: #fff; 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menu__link:hover:after,
+.menu__link:focus:after {
+	width: 100%;
+}
+
+
+
+.header__content {
+    background-image:url(../img/header.jpg);
+    color: #fff;
+    min-height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    font-weight: 800; 
+    font-size: 80px;  
+}
+
+.header__desc {
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.more__link {
+    font-weight: 500;
+    color: #fff;
+    background: #B4436C;
+    padding: 14px 78px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.more__link:hover {
+    color: #B4436C;
+    background-color: #fff;
+}
+
+.main {
+    
+}
+
+.main__container {
+    padding: 100px 0;
+}
+
+.main__title {
+    color: #3E8989;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__wrapper {
+    max-width: 545px;
+    width: 100%;
+}
+.main__img {
+    max-width: 545px;
+    width: 100%;
+}
+
+.main__desc {
+    padding-top: 20px;
+    font-weight:400;
+}
+
+.main__card {
+    max-width: 263px;
+    width: 100%;
+    background: #E5E5E5;
+    
+}
+
+.catalog__section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img__clothes {
+    padding: 0 32px;
+}
+
+.img__shoes {
+    padding: 77px 22px;
+}
+
+.img__tents {
+    padding: 75px 1px;
+}
+
+.img__backpacks {
+    padding: 19px 1px;
+}
+
+.main__product {
+    margin-bottom: 100px;
+}
+
+.container__link {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 29px;
+    font-size: 24px;
+    font-weight: 500;
+} 
+
+.link_catalog {
+    color: black;
+    transition: 0.3s;
+}
+
+.link_catalog:hover {
+    color: #B4436C;
+}
+
+.contacts__title {
+    margin-top: 100px;
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.information{
+    font-size: 20px;
+}
+
+.mail {
+    margin-top: 20px;
+}
+
+.contact__information {
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer__link {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+}
+
+.footer__link::after {
+    display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 3px; 
+	background-color: #fff; 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.footer__link:hover:after,
+.footer__link:focus:after {
+	width: 80%;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__menu {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer__link {
+    padding-right: 30px;
+}
+
+.footer__search {
+    display: flex;
+}
+
+
+form {
+    padding-top: 35px;
+    width: 290px;
+}
+
+input {
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+    
+}
+
+.search {
+    width: 75%;
+    border-radius: 30px 0px 0px 30px ;
+    
+}
+.submit {
+    width: 70px;
+    background-color: #295E5E;
+    color:#ffffff;
+    border-radius: 0px 30px 30px 0px;
+    
+}
